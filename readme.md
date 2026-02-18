@@ -257,12 +257,14 @@ make test-api
 ├── report.md                   # Full evaluation report
 │
 ├── src/
-│   ├── data.py                 # Dataset, stratified splits, OCR integration
-│   ├── models.py               # CLIP encoder, MiniLM encoder, fusion head
-│   ├── train.py                # Training loop (AMP, cosine LR, early stopping)
-│   ├── eval.py                 # Test metrics, confusion matrix, ROC curve
-│   ├── precompute_ocr.py       # Batch OCR extraction → ocr_cache.json
-│   └── utils.py                # Seed fixing, checkpoint I/O, logging
+│ ├── data.py                   # Dataset, stratified splits, OCR integration
+│ ├── models.py                 # CLIP encoder, MiniLM encoder, fusion head
+│ ├── train.py                  # Training loop (AMP, cosine LR, early stopping)
+│ ├── eval.py                   # Test metrics, confusion matrix, ROC curve
+│ ├── infer.py                  # Single-sample inference utilities (CLI + API)
+│ ├── run_ablations.py          #  Automated ablation study runner
+│ ├── precompute_ocr.py         # Batch OCR extraction → ocr_cache.json
+│ └── utils.py                  # Seed fixing, checkpoint I/O, logging
 │
 ├── data/
 │   ├── img/                    # 10,000 meme images
