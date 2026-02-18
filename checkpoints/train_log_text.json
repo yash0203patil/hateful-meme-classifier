@@ -1,0 +1,77 @@
+{
+  "config": {
+    "model_type": "text",
+    "freeze_encoders": false,
+    "use_ocr": false,
+    "batch_size": 32,
+    "num_workers": 4,
+    "lr": 0.0002,
+    "weight_decay": 0.0001,
+    "epochs": 20,
+    "warmup_epochs": 2,
+    "patience": 5,
+    "ckpt_dir": "checkpoints",
+    "data_dir": "data",
+    "seed": 42,
+    "device": "cuda"
+  },
+  "best_epoch": 1,
+  "best_val_auc": 73.65838773019158,
+  "total_time_hours": 0.04,
+  "metrics": [
+    {
+      "epoch": 1,
+      "train_loss": 0.8196,
+      "train_acc": 64.49,
+      "val_loss": 0.7916,
+      "val_acc": 66.26,
+      "val_auc": 73.66,
+      "time": 23.7
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.7316,
+      "train_acc": 70.42,
+      "val_loss": 0.8135,
+      "val_acc": 65.15,
+      "val_auc": 67.82,
+      "time": 23.5
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.6668,
+      "train_acc": 74.04,
+      "val_loss": 0.8614,
+      "val_acc": 66.04,
+      "val_auc": 71.64,
+      "time": 23.7
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.5634,
+      "train_acc": 77.61,
+      "val_loss": 0.9116,
+      "val_acc": 60.6,
+      "val_auc": 67.74,
+      "time": 23.4
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.5032,
+      "train_acc": 80.09,
+      "val_loss": 1.1831,
+      "val_acc": 63.6,
+      "val_auc": 66.46,
+      "time": 23.6
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.4471,
+      "train_acc": 82.27,
+      "val_loss": 1.1486,
+      "val_acc": 56.16,
+      "val_auc": 63.93,
+      "time": 23.6
+    }
+  ]
+}

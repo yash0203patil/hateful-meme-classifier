@@ -1,0 +1,30 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE/editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Exclude raw dataset images (downloaded from Kaggle)
+data/img/*.png
+data/img/*.jpg
+data/*.jsonl
+
+# Temporary/partial files
+*.filepart
+*.tmp
+*.log

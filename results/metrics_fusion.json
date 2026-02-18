@@ -1,0 +1,23 @@
+{
+  "accuracy": 73.72,
+  "precision": 64.36,
+  "recall": 63.48,
+  "f1": 63.92,
+  "roc_auc": 78.78,
+  "confusion_matrix_pct": {
+    "TN%": 79.65,
+    "FP%": 20.35,
+    "FN%": 36.52,
+    "TP%": 63.48
+  },
+  "confusion_matrix_raw": [
+    [
+      79.65,
+      20.35
+    ],
+    [
+      36.52,
+      63.48
+    ]
+  ]
+}
