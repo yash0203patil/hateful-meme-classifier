@@ -73,7 +73,7 @@ Not Hateful │    79.65    │  20.35  │
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/hateful-memes-mm.git
+git clone https://github.com/yash0203patil/hateful-meme-classifier.git
 cd hateful-memes-mm
 
 # Install dependencies
